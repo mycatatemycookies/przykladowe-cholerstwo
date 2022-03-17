@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Open+Sans:ital,wght@1,300;1,800&display=swap" rel="stylesheet">
+  
+  </head>
+
+  <body>
+    <div>
+      <h1>
+        halo
+      </h1>
+      <hr/>
+      <p>
+        czesc to ja Paula chce zostac programistka i/lub ui/ux designerka.
+        poza tym lubie koty</p>
+    </div>
+   <div>
+      <a href="https://www.vistula.edu.pl/"><img id="thick-red-border" src="https://americanpetsalive.org/uploads/blog/Healthy-Kittens.jpg"></a>
+   </div>
+ 
+
+ <div>
+    <p>lubie tez ameryke lacinska, tutaj linkor do strony wikipedii o kolumbii:<a href="https://en.wikipedia.org/wiki/Colombia"><em>to to</em></a></p>
+    
+
+   <p>
+      rzeczy ktore lubie:
+    </p>
+    <ul id="ul">
+      <li>nauka jezykow</li>
+      <li>koty</li>
+      <li>ogladanie filmow na yt o gotowaniu jezykach obcych podrozach</li>
+      <li>jedzenie</li>
+    </ul>
+    <p>rzeczy ktorych nie lubie:</p>
+    <ol id="ol">
+      <li>gorzka czekolada</li>
+      <li>alkohol</li>
+      <li>kolejki do lekarza</li>
+      <li>zimno</li>
+    </ol>
+ </div>
+ <div>
+ <form action="#"><input type="text" placeholder="mniam mniam" required>
+ <button type="submit">submit</button>
+ </form>
+</div>
+<div>
+<p>
+koty wychodzące czy niewychodzące? ja osobiście wolę wypuszczać koty bo są szczęśliwsze i nie trzeba sprzątać kuwety
+</p>
+<label for="indoor">
+  <input id="indoor" type="radio" name="indoor-outdoor">indoor
+</label>
+<label for="outdoor">
+ <input id="outdoor" type="radio" name="indoor=outdoor">outdoor
+</label>
+<p>rzeczy które lubią koty:</p>
+<label for="kocimietka">
+  <input  id="kocimietka" type="checkbox" name="things-cats-love">kocimietka
+</label>
+<label class="spanie" for="spanie"><input id="myszy-zabawki" type="checkbox" name="things-cats-love" >spanie</label>
+<label for="myszy-zabawki">
+  <input  id="myszy-zabawki" type="checkbox" name="things-cats-love">myszy zabawki
+</label>
+</div>
+  </body>
+   <style>
+     body{background-color: rgba(0, 0, 0, 0.12);}
+    h1 {
+      font-family: Gideon Roman,
+        open-sans;
+      font-size: 40px;
+      color: blue
+    }
+    #ul{
+      background-color:rgb(154, 206, 12);
+      box-shadow: 20px 20px 10px rgba(201, 183, 24, 0.582);
+       }
+    #ol{
+      background-color:rgb(154, 206, 12);
+      box-shadow: 20px 20px 10px rgba(201, 183, 24, 0.582);
+    }
+    p {
+      font-family: Gideon Roman,
+        open-sans;
+      font-size: 20px;
+      color:purple;
+      background-color: rgba( 45, 22, 36, 0.3);
+    }
+
+    img {
+      width: 250px;
+    }
+
+    p2 {
+      font-size: 20px;
+      color: purple;
+      font-family: Gideon Roman,
+        open-sans
+    }
+
+    a {
+      font-size: 20px;
+      color: orange;
+    }
+
+    p3 {
+      font-size: 20px;
+      color: purple;
+      font-family: Gideon Roman,
+        open-sans
+    }
+
+    li {
+      font-size: 20px;
+      color: green;
+      font-family: Gideon Roman, open-sans
+    }
+
+    p4 {
+      font-size: 20px;
+      color: purple;
+      font-family: Gideon Roman,
+        open-sans
+    }
+     
+     }
+     #thick-red-border{
+      border-width: 5px;
+      border-style: solid;
+      border-color: #3ae4ac;
+      border-radius: 10%;
+    }
+   label{color:green;}
+  </style>
+
+</html>
