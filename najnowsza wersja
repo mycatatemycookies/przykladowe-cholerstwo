@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Open+Sans:ital,wght@1,300;1,800&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+
+      function odliczanie(){
+       var dzisiaj= new Date();
+       var dzien = dzisiaj.getDate();
+       var miesiac = dzisiaj.getMonth()+1;
+       var rok = dzisiaj.getFullYear();
+       var godzina = dzisiaj.getHours();
+        if( godzina<10) godzina = "0" + godzina;
+       var minuta = dzisiaj.getMinutes();
+        if(minuta<10) godzina= "0" + minuta;
+       var sekunda = dzisiaj.getSeconds();
+        if(sekunda<10) sekunda= "0" + sekunda;
+       
+       document.getElementById("zegar").innerHTML = dzien+"/"+ miesiac +"/"+ rok + "|" + godzina + ":" + minuta +":"+ sekunda;
+
+       setTimeout("odliczanie()", 1000);
+      }
+
+      
+    </script>
+  </head>.
+
+  <body onload="odliczanie();">
+    <div id="zegar"></div>
+    <script type="text/javascript">
+      document.getElementById("zegar").innerHTML = dzien+"/"+ miesiac +"/"+ rok + "|" + godzina + ":" + minuta +":"+ sekunda;
+    </script>
+
+    <div>
+      <h1>
+        halo
+      </h1>
+      <hr/>
+      <p>
+        czesc to ja Paula chce zostac programistka i/lub ui/ux designerka.
+        poza tym lubie koty</p>
+    </div>
+      <a href="https://www.vistula.edu.pl/"><img class="thick-red-border" src="https://americanpetsalive.org/uploads/blog/Healthy-Kittens.jpg"></a>
+      <img class="applepie" src="C:\Users\Paula\Desktop\Nowy folder (6)\Nowy folder\ciasto-szarlotka-346174.jpg">
+ <div>
+    <p>lubie tez ameryke lacinska, tutaj linkor do strony wikipedii o kolumbii:<a href="https://en.wikipedia.org/wiki/Colombia"><em>to to</em></a></p>
+   <p>
+      rzeczy ktore lubie:
+    </p>
+    <ul id="ul">
+      <li>nauka jezykow</li>
+      <li>koty</li>
+      <li>ogladanie filmow na yt o gotowaniu jezykach obcych podrozach</li>
+      <li>jedzenie</li>
+    </ul>
+    <p>rzeczy ktorych nie lubie:</p>
+    <ol id="ol">
+      <li>gorzka czekolada</li>
+      <li>alkohol</li>
+      <li>kolejki do lekarza</li>
+      <li>zimno</li>
+    </ol>
+ </div>
+ <div>
+ <form action="#"><input type="text" placeholder="mniam mniam" required>
+ <button type="submit">submit</button>
+ </form>
+</div>
+<div>
+<p>
+koty wychodzące czy niewychodzące? ja osobiście wolę wypuszczać koty bo są szczęśliwsze i nie trzeba sprzątać kuwety
+</p>
+<label for="indoor">
+  <input id="indoor" type="radio" name="indoor-outdoor">indoor
+</label>
+<label for="outdoor">
+ <input id="outdoor" type="radio" name="indoor=outdoor">outdoor
+</label>
+<p>rzeczy które lubią koty:</p>
+<label for="kocimietka">
+  <input  id="kocimietka" type="checkbox" name="things-cats-love">kocimietka
+</label>
+<label class="spanie" for="spanie"><input id="myszy-zabawki" type="checkbox" name="things-cats-love" >spanie</label>
+<label for="myszy-zabawki">
+  <input  id="myszy-zabawki" type="checkbox" name="things-cats-love">myszy zabawki
+</label>
+<p id="myhobbies">
+bardzo lubie jezyki obce, oglądanie filmów na yt, zwłaszcza tych podróżniczych ( ostatnio mam fazę na kretę)
+lubie tez inne kultury. Interesuje się psychlogią, ogrodnictwem, zielarstwem, naturoterapią.
+ogrodnictwo zielarstwo i ziołolecznictwo mam po mamie. chyba złapałam bakcyla. ale to chyba rodzinne bo każda
+kobieta w naszej rodzinie tak ma ( nawet te "wżenione"). Lubię też oglądac true crime.
+z ksiązek lubię fantasy,sci-fi, romanse ( ale tylko lgbt+), thrillery i powiesci kryminalne ( zwłaszcza te o seryjniakach). ale chyba poczytam tez kiedys jakies straight romanse.
+jestem hetero ale i tak lubie ten motyw w książkach. 
+</p>
+</div>
+  </body>
+   <style>
+     body{background-color: rgba(233, 38, 233, 0.205);}
+    h1 {
+      font-family: Gideon Roman,
+        open-sans;
+      font-size: 40px;
+      color: blue;
+      text-align: center;
+    }
+    #ul{
+      background-color:rgb(12, 206, 93);
+      box-shadow: 20px 20px 10px rgba(23, 151, 12, 0.582);
+       }
+    #ol{
+      background-color:rgb(154, 206, 12);
+      box-shadow: 20px 20px 10px rgba(201, 183, 24, 0.582);
+    }
+    p {
+      font-family: Gideon Roman,
+        open-sans;
+      font-size: 20px;
+      color:rgb(87, 34, 87);
+      background-color: rgba(214, 111, 175, 0.3);
+      text-align: center;
+    }
+
+    img {
+      width: 10em;
+      opacity:0.8;
+    }
+
+    
+
+    li {
+      font-size: 20px;
+      color: green;
+      font-family: Gideon Roman, open-sans;
+      text-align: left;
+    }
+
+ 
+    .applepie{
+   
+     border-width: 5px;
+      border-style: solid;
+      border-color: #3ae4ac;
+      border-radius: 10%;
+      box-shadow: 0 10px 20px rgba(15, 2, 2, 0.726);
+    }
+     .thick-red-border{
+      border-width: 5px;
+      border-style: solid;
+      border-color: #3ae4ac;
+      border-radius: 10%;
+      box-shadow: 0 10px 20px rgba(15, 2, 2, 0.726);
+     }
+    #myhobbies{
+      font-weight: 100;
+      line-height: 35px;
+      text-align: left;
+      box-shadow: 0 20px 20px  rgba(219, 39, 63, 0.712);
+    }
+    
+   label{color:green;}
+  </style>
+
+</html>
